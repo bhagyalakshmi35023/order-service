@@ -14,7 +14,7 @@ pipeline {
             steps {
 
                 git branch: 'main',
-                url: 'https://github.com/bhagyalakshmi35023/microservice-project.git'
+                url: 'https://github.com/bhagyalakshmi35023/order-service.git'
 
             }
         }
