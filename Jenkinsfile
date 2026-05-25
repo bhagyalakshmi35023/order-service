@@ -59,7 +59,7 @@ pipeline {
                         # Commit and push
                         git config user.email "jenkins@ci.local"
                         git config user.name "Jenkins"
-                        git add ${GITOPS_FILE}
+                        git add .
                         git commit -m "ci: update order-service image to :${IMAGE_TAG} [skip ci]"
                         git push origin main
                     '''
