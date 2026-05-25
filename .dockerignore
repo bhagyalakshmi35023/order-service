@@ -1,0 +1,5 @@
+node_modules
+npm-debug.log
+.DS_Store
+service-a/node_modules
+service-b/node_modules
